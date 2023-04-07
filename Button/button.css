@@ -63,10 +63,26 @@ button {
   }
   /* Active Button */
   .active {
-    color: rgb(223, 102, 9);
+    color: rgb(226, 127, 13);
     border: 2px solid #cda138;
     background-color: #fafffa;
+    #f67d0d 40%, #fdd281);
   }
+  /* Making button ACTIVE AFTER CLICK */
+  .active:active {
+  background-color: #cda138;
+  color: #fafffa;
+  font-weight: bold;
+
+}
+/* Default Button */
+  .default {
+    color: rgb(9, 9, 9);
+    border: 2px solid #8a8989;
+    background-color: #fafffa; 
+    box-shadow: none;
+  }
+  
 
 /* Responsivenes  */
 
