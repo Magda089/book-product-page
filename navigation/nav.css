@@ -12,8 +12,7 @@ html {
   align-items: center;
   justify-content: space-between;
   padding: 8px;
-  background-color: rgb(0, 0, 0);
-  color: #fff;
+  color: rgb(255, 255, 255);
   height: 70px;
 }
 
@@ -38,15 +37,13 @@ ul {
 }
 
 .menu li:hover {
-background-color: #ec7d0e;
-border-radius: 5px;
-transition: 0.3s ease;
+  border-bottom: 3px solid orange;
+  transition: 0.3s ease;
   }
   
   .menu li {
   padding: 5px 14px;
   float: right;
-  border-right: 1px solid #e87e04;
   margin: 0;
 
   }
@@ -54,7 +51,7 @@ transition: 0.3s ease;
 
 li a {
   display: block;
-  color: white;
+  color: rgb(24, 23, 23);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
