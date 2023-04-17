@@ -26,7 +26,7 @@ ul {
   justify-content: space-around;
 }
 
-.menu {
+.navbar {
   display: flex;
   margin-right: 30px;
   flex-direction: row;
@@ -36,7 +36,7 @@ ul {
 
 }
 
-.menu li:hover {
+.navbar li:hover {
   border-bottom: 3px solid orange;
   transition: 0.3s ease;
   }
