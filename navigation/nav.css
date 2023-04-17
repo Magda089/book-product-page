@@ -72,7 +72,7 @@ li a {
 }
 
 @media only screen and (max-width : 200px) {
-  .nav {
+  .navbar {
 float:left;
 }
 }
