@@ -20,7 +20,6 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 20px;
 }
 
 /* Quotation Block */
@@ -45,7 +44,7 @@ blockquote p::after {
 /* Button */
 button {
   border-radius: 15px;
-  color: rgb(251, 244, 244);
+  color: rgb(86, 82, 82);
   margin: 4px 2px;
   padding: 15px 32px;
   transition-duration: 0.4s;
