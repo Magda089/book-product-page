@@ -1,0 +1,71 @@
+/* Hero */
+body, html {
+  height: 100%;
+}
+
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./stars-background.jpg");
+
+height: 50%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+/* Quotation Block */
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  padding: 15px;
+  background: transparent;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}
+
+
+/* Button */
+button {
+  border-radius: 3px;
+  color: rgb(251, 244, 244);
+  margin: 4px 2px;
+  padding: 15px 32px;
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;  
+  box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 5px #f1d37a;
+  font-size: 16px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.button2 {
+  background-color: #fafffa;
+  color: black;
+  border: 2px solid #008CBA;
+} /* Blue */
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
