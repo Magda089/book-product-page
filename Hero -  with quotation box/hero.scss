@@ -1,18 +1,17 @@
-@charset "UTF-8";
 /* Hero */
 body, html {
   height: 100%;
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./stars-background.jpg");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./stars-background.jpg");
 
+height: 50%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
 .hero-text {
   text-align: center;
   position: absolute;
@@ -21,7 +20,8 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 20px;
-}
+  }  
+
 
 /* Quotation Block */
 blockquote {
@@ -35,12 +35,13 @@ blockquote p {
 }
 
 blockquote p::before {
-  content: "“";
+  content: '\201C';
 }
 
 blockquote p::after {
-  content: "”";
+  content: '\201D';
 }
+
 
 /* Button */
 button {
@@ -52,14 +53,13 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  text-transform: uppercase;
+  text-transform: uppercase;  
   box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0 5px #7aaef1;
   font-size: 16px;
   cursor: pointer;
   opacity: 0.8;
 }
-
 .button2 {
   background-color: #fafffa;
   color: black;
