@@ -1,0 +1,88 @@
+.hero-section {
+  background-image: url('./images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.hero-quote {
+  position: relative;
+  display: inline-block;
+  padding: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  line-height: 1.4;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+.hero-quote:before {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid rgba(255, 255, 255, 0.9);
+}
+
+.hero-quote:after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid rgba(255, 255, 255, 0.9);
+}
+
+.hero-quote p {
+  margin: 0;
+}
+
+.hero-quote i {
+  font-size: 2em;
+  color: #fff;
+  opacity: 0.2;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hero-quote i:first-of-type {
+  left: 1em;
+}
+
+.hero-quote i:last-of-type {
+  right: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-quote {
+    padding: 0.5em;
+    font-size: 1em;
+    line-height: 1.2;
+  }
+  
+  .hero-quote:before,
+  .hero-quote:after {
+    display: none;
+  }
+  
+  .hero-quote i {
+    font-size: 1.5em;
+  }
+}
