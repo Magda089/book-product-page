@@ -1,88 +1,79 @@
 .hero-section {
-  background-image: url('./images/hero-bg.jpg');
+  background-image: url("./bled-g85d2545bb_1920.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .hero-content {
   text-align: center;
-  color: #fff;
+}
+
+.quotation-block {
+  max-width: 500px;
   margin: 0 auto;
-}
-
-.hero-quote {
-  position: relative;
-  display: inline-block;
-  padding: 1em;
-  margin-bottom: 1em;
-  font-size: 1.2em;
-  line-height: 1.4;
-  font-style: italic;
+  padding: 50px;
   background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.hero-quote:before {
-  position: absolute;
-  top: -10px;
-  right: 0;
-  content: '';
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid rgba(255, 255, 255, 0.9);
+.quotation-block i {
+  font-size: 24px;
+  color: #444;
 }
 
-.hero-quote:after {
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  content: '';
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid rgba(255, 255, 255, 0.9);
+.quotation-block p {
+  font-size: 24px;
+  color: #444;
+  margin: 20px 0;
 }
 
-.hero-quote p {
+.author-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author-info img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.author-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
   margin: 0;
 }
 
-.hero-quote i {
-  font-size: 2em;
-  color: #fff;
-  opacity: 0.2;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.hero-quote i:first-of-type {
-  left: 1em;
-}
-
-.hero-quote i:last-of-type {
-  right: 1em;
+.author-position {
+  font-size: 16px;
+  color: #777;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .hero-quote {
-    padding: 0.5em;
-    font-size: 1em;
-    line-height: 1.2;
+  .quotation-block {
+    padding: 30px;
   }
   
-  .hero-quote:before,
-  .hero-quote:after {
-    display: none;
+  .author-info img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
   }
   
-  .hero-quote i {
-    font-size: 1.5em;
+  .author-name {
+    font-size: 16px;
+  }
+  
+  .author-position {
+    font-size: 14px;
   }
 }
