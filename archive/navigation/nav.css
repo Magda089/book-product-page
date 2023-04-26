@@ -1,0 +1,96 @@
+html {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  height: 70px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 15px auto;
+  padding: 0;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 30px;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1em;
+  font-size: 18px;
+
+}
+
+.navbar li:hover {
+  border-bottom: 3px solid orange;
+  transition: 0.3s ease;
+  }
+  
+  .menu li {
+  padding: 5px 14px;
+  float: right;
+  margin: 0;
+
+  }
+  
+
+li a {
+  display: block;
+  color: rgb(24, 23, 23);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+
+.logo img {
+  height: 50px;
+
+}
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+<<<<<<< Updated upstream
+@media only screen and (max-width : 200px) {
+  .navbar {
+float:left;
+}
+}
+=======
+.hamburger {
+display: none;
+font-size: 24px;
+user-select: none;
+  
+  }
+/* responsivnes */
+@media screen and (max-width: 600px){
+ul.navbar li.right,
+ul.navbar li {
+  float: none;
+flex-direction: column;
+}
+}
+
+>>>>>>> Stashed changes

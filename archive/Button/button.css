@@ -1,0 +1,93 @@
+/* css test */
+h1 {
+  color: rgb(31, 77, 123);
+}
+html {
+  font-family: "Open Sans", sans-serif;
+}
+.button {
+  border-radius: 3px;
+  color: rgb(251, 244, 244);
+  margin: 4px 2px;
+  padding: 15px 32px;
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;  
+  box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 5px #f1d37a;
+  font-size: 16px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+/* Button 1 */
+.button1 {
+  background-color: #fafffa;
+  color: black;
+  border: 2px solid #163b18;
+} /* Green */
+.button1:hover {
+  background-color: #163b18;
+  color: white;
+}
+
+/* Button 2 */
+.button2 {
+  background-color: #fafffa;
+  color: black;
+  border: 2px solid #008CBA;
+} /* Blue */
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+/* Button 3 */
+.button3 {
+  color: black;
+  border: 2px solid #cda138;
+  background-color: #fafffa;
+} /* Yellow */
+.button3:hover {
+  background-color: #cda138;
+  color: white;
+}
+/* Disabel Button */
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  color: rgb(93, 88, 88);
+  border: 2px solid #cda138;
+  background-color: #fafffa;
+  }
+  /* Active Button */
+  .active {
+    color: rgb(226, 127, 13);
+    border: 2px solid #cda138;
+    background-color: #fafffa;
+   ;
+  }
+  /* Making button ACTIVE AFTER CLICK */
+  .active:active {
+  background-color: #cda138;
+  color: #fafffa;
+  font-weight: bold;
+
+}
+/* Default Button */
+  .default {
+    color: rgb(9, 9, 9);
+    border: 2px solid #8a8989;
+    background-color: #fafffa; 
+    box-shadow: none;
+  }
+  
+
+/* Responsivenes  */
+
+ /* For mobile phones: */
+@media only screen and (max-width:500px) {
+  .button {
+    width: 100%;
+  }}
