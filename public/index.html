@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Trying to  build website out of the components</title>
+  <title>Book Product Page</title>
 </head>
 <body>
   <nav>
@@ -13,13 +13,71 @@
     <label for="check" class="checkbtn">
       <i class="fas fa-bars"></i>
     </label>
-    <label class="logo active">Wild Design</label>
+    <label class="logo active">Wild Book Store</label>
     <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#">Books</a></li>
+      <li><a href="#">eBooks</a></li>
+      <li><a href="#">Audiobooks</a></li>
+      <li><a href="#">Music&Movies</a></li>
     </ul>
   </nav>
+<!-- hero -->
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>Wild Book Store</h1>
+    <p>Best book store in USA</p>
+  </div>
+</div>
+  <!-- breadcrumbs -->
+  <nav aria-label="Breadcrumb" class="breadcrumb">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">eBooks</a></li>
+        <li><a href="#">Audiobooks</a></li>
+        <li><span aria-current="page">Product</span></li>
+    </ul>
+</nav>
+
+<!-- Shopping Card -->
+<!-- <div class='container'> 
+  <div class='card'> 
+      <div class='left'></div>
+      <div class='right'>
+              <h4>
+                Preview
+              </h4>
+              <h2>
+                Author Name <br> Author Lastname <br>Book Title
+              </h2>
+              <p>
+                Your website should reflect your brand's unique identity. Our web design services create personalized websites that stand out from the competition. Contact us today to get started!
+              </p>
+              
+              <div class="text-container">
+                <span id="big-text"> $100.00</span>
+                <span id="small-text">$200.00</span>
+              </div>
+              <button>
+                 Add to cart
+              </button>
+      </div> -->
+
+      <!-- Shopping card 2 -->
+      <div class="card">
+        <img src="./imgs/Albert_Einstein.jpeg" alt="book" style="width:100%">
+        <h1>Einstain Book</h1>
+        <p class="price">$19.99</p>
+        <p>Something about the Einstain..</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+
+      <!-- footer -->
+      <footer class="footer">
+        <p>Wild Books Store</p>
+        <p><a href="mailto:hege@example.com">Wild Book store</a></p>
+        <p>© Copyright 2014, All Rights Reserved</p>
+      </footer>
+
 </body>
 </html>
