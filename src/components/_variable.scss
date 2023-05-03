@@ -1,0 +1,30 @@
+/* Colors */
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$success-color: #28a745;
+$info-color: #17a2b8;
+$warning-color: #ffc107;
+$danger-color: #dc3545;
+$light-color: #f8f9fa;
+$dark-color: #343a40;
+
+/* Typography */
+$body-font-family: 'Open Sans', sans-serif;
+$heading-font-family: 'Montserrat', sans-serif;
+$base-font-size: 16px;
+$heading-1-size: 2.5rem;
+$heading-2-size: 2rem;
+$heading-3-size: 1.75rem;
+$heading-4-size: 1.5rem;
+$heading-5-size: 1.25rem;
+$heading-6-size: 1rem;
+
+/* Layout */
+$container-max-width: 1200px;
+$content-padding: 20px;
+
+/* Media Queries */
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
